@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { PlainDate } from '../shared/date';
+import { petListLabel } from '../shared/utils';
 import { Pet } from './pet';
 import type { CustomerAppointmentSet } from '../context/appointment.hooks';
 
@@ -10,6 +11,7 @@ export function Customer({ data }: { data: CustomerAppointmentSet }) {
         <img src={data.customer.avatar} alt={`${data.customer.name}'s avatar`} />
         <div>
           <p>{data.customer.name}</p>
+          <p>{petListLabel(data.customer.pets)}</p>
         </div>
       </div>
       <ul className="pets">
