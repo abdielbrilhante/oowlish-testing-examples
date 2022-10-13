@@ -11,6 +11,7 @@ export function AppointmentsPage() {
       <label htmlFor="search">
         <div>Search by customer or pet name</div>
         <input
+          id="search"
           type="text"
           placeholder="Type in search..."
           onChange={handleSearchChange}

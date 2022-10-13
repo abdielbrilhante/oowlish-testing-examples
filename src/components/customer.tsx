@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { PlainDate } from '../shared/date';
 import { petListLabel } from '../shared/utils';
-import { Pet } from './pet';
+import { PetItem } from './pet';
 import type { CustomerAppointmentSet } from '../context/appointment.hooks';
 
 export function Customer({ data }: { data: CustomerAppointmentSet }) {
@@ -19,7 +19,7 @@ export function Customer({ data }: { data: CustomerAppointmentSet }) {
           const when = new PlainDate(appt.when);
           return (
             <li key={appt.id}>
-              <Pet pet={appt.pet} when={when} />
+              <PetItem pet={appt.pet} when={when} />
             </li>
           );
         })}

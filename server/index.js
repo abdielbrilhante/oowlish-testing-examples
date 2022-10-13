@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-var-requires, no-console, max-len */
 const Chance = require('chance');
 const { times } = require('lodash');
 const express = require('express');
@@ -23,10 +24,9 @@ function populateDB() {
         id: chance.guid(),
         name: chance.name({ full: false, nationality: 'it' }).split(' ')[0],
         sex: chance.gender(),
-        breed: chance.pickone(['Labrador']),
         species: species,
         breed: chance.pickone(breeds[species]),
-      }
+      };
     }),
   }));
 
@@ -53,7 +53,7 @@ app.get('/appointments', (req, res) => {
 });
 
 app.get('/customers/:id', (req, res) => {
-  const customer = db.customers.find((customer) => customer.id === req.params.id);
+  const customer = db.customers.find((item) => item.id === req.params.id);
   res.json(customer);
 });
 

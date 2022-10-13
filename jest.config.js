@@ -9,7 +9,9 @@ const config = {
   moduleNameMapper: {
     'lodash-es': 'lodash',
   },
+  setupFilesAfterEnv: [
+    '<rootDir>/jest.setup.js',
+  ],
 };
-
 
 module.exports = config;

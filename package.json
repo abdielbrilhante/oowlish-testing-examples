@@ -43,7 +43,7 @@
     "@babel/preset-react": "^7.18.6",
     "@babel/preset-typescript": "^7.18.6",
     "@testing-library/dom": "^8.18.1",
-    "@testing-library/user-event": "^13.5.0",
+    "@testing-library/user-event": "^14.4.3",
     "@types/jest": "^29.1.1",
     "@types/lodash": "^4.14.186",
     "@types/lodash-es": "^4.17.6",
