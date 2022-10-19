@@ -1,0 +1,168 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`appointment listing page allows user to search for appointments based on name 1`] = `
+<DocumentFragment>
+  <div>
+    <label
+      for="search"
+    >
+      <div>
+        Search by customer or pet name
+      </div>
+      <input
+        id="search"
+        placeholder="Type in search..."
+        type="text"
+      />
+    </label>
+    <ul
+      class="customers"
+    >
+      <li>
+        <div
+          class="customer-info"
+        >
+          <img
+            alt="John Doe's avatar"
+            src="img.png"
+          />
+          <div>
+            <p>
+              John Doe
+            </p>
+            <p>
+              2 pets
+            </p>
+          </div>
+        </div>
+        <ul
+          class="pets"
+        >
+          <li>
+            <img
+              alt="canine icon"
+              aria-hidden="true"
+              src="http://test-assets.com/dog.png"
+            />
+            <div
+              class="pet-info"
+            >
+              <div>
+                Spot
+              </div>
+              <div>
+                <span
+                  class="pet-sex"
+                >
+                  male
+                </span>
+                 
+                <span
+                  class="pet-species"
+                >
+                  Labrador
+                </span>
+              </div>
+              <div>
+                10/10/2022
+              </div>
+            </div>
+          </li>
+          <li>
+            <img
+              alt="canine icon"
+              aria-hidden="true"
+              src="http://test-assets.com/dog.png"
+            />
+            <div
+              class="pet-info"
+            >
+              <div>
+                Lassie
+              </div>
+              <div>
+                <span
+                  class="pet-sex"
+                >
+                  female
+                </span>
+                 
+                <span
+                  class="pet-species"
+                >
+                  Rough Collie
+                </span>
+              </div>
+              <div>
+                10/30/2022
+              </div>
+            </div>
+            <div
+              class="followup-tag"
+            >
+              Follow up on 11/30/2022
+            </div>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <div
+          class="customer-info"
+        >
+          <img
+            alt="Richard Doe's avatar"
+            src="img.png"
+          />
+          <div>
+            <p>
+              Richard Doe
+            </p>
+            <p>
+              1 pet
+            </p>
+          </div>
+        </div>
+        <ul
+          class="pets"
+        >
+          <li>
+            <img
+              alt="feline icon"
+              aria-hidden="true"
+              src="http://test-assets.com/cat.png"
+            />
+            <div
+              class="pet-info"
+            >
+              <div>
+                Sphinx
+              </div>
+              <div>
+                <span
+                  class="pet-sex"
+                >
+                  male
+                </span>
+                 
+                <span
+                  class="pet-species"
+                >
+                  British Shorthair
+                </span>
+              </div>
+              <div>
+                10/15/2022
+              </div>
+            </div>
+            <div
+              class="followup-tag"
+            >
+              Follow up on 11/15/2022
+            </div>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</DocumentFragment>
+`;
